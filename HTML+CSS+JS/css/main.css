@@ -412,8 +412,10 @@ height: 32px;
 }
 
 .mm-slider-container{
-    width: 100%;
+  
     background-color: white;
+    display: block;
+    overflow: hidden;
 }
 .mm-slider-list{
     width: auto;
@@ -423,8 +425,8 @@ height: 32px;
     list-style: none;
 }
 .mm-slider-item{
-    display: inline-block;
-    width: 500px;
+    display: block;
+    float: left;
     height: 500px;
 }
 
